@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: AdminService
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/AUTOMATICFRAUDDETECTIONSYSTEM
+    username: root
+    password: Anirudh9094@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8086
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: ERROR
+
+sonar:
+  projectKey: AdminService
+  projectName: AdminService
+  projectVersion: 0.0.1-SNAPSHOT
+  sources: src/main/java
+  tests: src/test/java
+  sourceEncoding: UTF-8
+  host.url: http://localhost:8080
+  login: sqp_61c8d8fb69ff04b1edd9a6e8539b3a5b550ce4a8
